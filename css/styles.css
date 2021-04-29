@@ -348,11 +348,10 @@ img {
   font-size: 16px;
 }
 
-/* ============================== TEAM SOCIAL LINKS ============================== */
+/* ============================== SOCIAL LINKS ============================== */
 
-.team-social-links {
-  display: flex;
-  justify-content: center;
+.social-links {
+  display: inline-flex;
 }
 
 .social-links-items {
