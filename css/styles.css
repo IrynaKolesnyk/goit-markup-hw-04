@@ -28,6 +28,7 @@ body {
 
 a {
   outline: none;
+  text-decoration: none;
 }
 
 h1,
@@ -116,7 +117,6 @@ img {
   padding-top: 24px;
   padding-bottom: 25px;
   color: #000000;
-  text-decoration: none;
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   font-weight: 700;
@@ -137,7 +137,6 @@ img {
   padding-bottom: 32px;
 
   color: var(--title-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
 }
@@ -165,7 +164,6 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--primary-text-color);
-  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -505,6 +503,7 @@ img {
 }
 
 .work-examples-subtitle {
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
 }
@@ -547,7 +546,6 @@ img {
 
 .footer-contacts .link {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .footer-contacts .link:hover,
