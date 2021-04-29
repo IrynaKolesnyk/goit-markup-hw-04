@@ -354,12 +354,14 @@ img {
   display: inline-flex;
 }
 
-.social-links-content {
+.social-links-content:not(:last-child) {
   margin-right: 10px;
 }
 
 .social-links-items {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   width: 44px;
   height: 44px;
@@ -571,12 +573,7 @@ img {
   text-transform: uppercase;
 }
 
-.join-links {
-  display: flex;
-}
-
 .join-social-links {
-  padding: 12px;
   background-color: #44454e;
   border-radius: 50%;
 }
